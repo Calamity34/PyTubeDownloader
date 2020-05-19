@@ -11,5 +11,9 @@ cd PTD
 Now it is ready for your use!
 
 ## Use
-`$ pydownloader` \ 
+`$ pydownloader`  \ 
 Provide it the YT link, and it will do all the work! 
+
+## Update
+Did a new update come out?
+Upgrade your pydownloader by going into the package folder and running `pip3 install . -U`. (sudo access may be required)

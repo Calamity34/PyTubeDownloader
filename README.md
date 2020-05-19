@@ -11,8 +11,8 @@ cd PTD
 Now it is ready for your use!
 
 ## Use
-`$ pydownloader`  \ 
-Provide it the YT link, and it will do all the work! 
+- Run `$ pydownloader` in the required folder. \ 
+- Provide it the YT link, and it will do all the work! 
 
 ## Update
 Did a new update come out?

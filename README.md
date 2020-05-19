@@ -16,4 +16,6 @@ Now it is ready for your use!
 
 ## Update
 Did a new update come out?
-Upgrade your pydownloader by going into the package folder and running `pip3 install . -U`. (sudo access may be required)
+Upgrade your pydownloader by going into the package folder and running 
+- `git fetch && git pull`
+- `pip3 install . -U` (sudo access may be required)

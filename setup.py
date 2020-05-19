@@ -1,9 +1,17 @@
+import pathlib
 from setuptools import setup
 
+# Get README:
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
+
+# Setup:
 setup(
     name='pythondl',
     version='1.1',
     description='Download YT videos using this simple tool!',
+    long_description=README,
+    long_description_content_type="text/markdown",
     author='Calamity34',
     author_email='nick.goloushckin@ya.ru',
     license="MIT",
@@ -18,3 +26,4 @@ setup(
         'scripts/pydownloader'
     ]
 )
+

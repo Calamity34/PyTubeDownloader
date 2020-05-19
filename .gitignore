@@ -1,0 +1,3 @@
+build/*
+dist/*
+pythondl.egg-info/*
